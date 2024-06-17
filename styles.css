@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+    color: #ccc;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #00FF00; /* Green border */
+    border-radius: 5px;
+    color: #00FF00;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.buttons a:hover {
+    background: #00FF00; /* Green background on hover */
+    color: #000;
+}
+
+.social a {
+    display: block;
+    margin-top: 20px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #fff;
+}
